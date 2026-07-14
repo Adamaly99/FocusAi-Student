@@ -1,1 +1,1 @@
-# FocusAi-Student
+focusai-student
