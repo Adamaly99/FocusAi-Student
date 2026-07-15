@@ -1,6 +1,6 @@
 'use client'
 
-import { useAuthStore } from '@/store/authStore'
+import { useAuthStore } from '../store/authStore'
 
 export default function Navigation({ activeView, setActiveView }) {
   const user = useAuthStore((state) => state.user)
