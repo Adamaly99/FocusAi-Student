@@ -1,9 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useAuthStore } from '@/store/authStore'
-import { usePomodoroStore } from '@/store/pomodoroStore'
-
+import { useAuthStore } from '../store/authStore'
+import { usePomodoroStore } from '../store/pomodoroStore'
 export default function Timer() {
   const [minutes, setMinutes] = useState(25)
   const [seconds, setSeconds] = useState(0)
